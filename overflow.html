@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .overflow{
+            height: 300px;
+            width: 300px;
+            background-color: blanchedalmond;
+            border: 2px solid black;
+            /* overflow: hidden; */
+            overflow: scroll;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            padding: 10px;
+
+        }
+        .tootlip{
+            white-space: nowrap;
+            overflow:hidden;
+            text-overflow: ellipsis;
+            
+        }
+    </style>
+</head>
+<body>
+ 
+ <div style="width: 100px; overflow:hidden; border: 2px solid black ;">
+     <p class="tootlip" title="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores sunt tenetur similique dolore hic quasi iusto voluptates quis voluptatum magni.">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores sunt tenetur similique dolore hic quasi iusto voluptates quis voluptatum magni.</p>
+ </div>
+    <div class="overflow">
+        <h1>Over flow</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis mollitia ad obcaecati possimus modi asperiores alias excepturi facilis iusto aut laboriosam nesciunt dolores iure soluta porro non in enim, vitae accusantium cumque beatae, dolorum quaerat quis illum. Dicta impedit aperiam facere placeat animi porro nisi, ducimus ex minus adipisci fugit necessitatibus voluptates nam. Corporis, impedit. Et dolor architecto placeat nam, nobis debitis alias excepturi aspernatur ad magnam adipisci quos dolores ratione nisi molestias aperiam sequi delectus quis id numquam. Eveniet ad maiores itaque tenetur suscipit blanditiis? Illo provident minima voluptates totam eligendi quia possimus repellendus ab ea eveniet, obcaecati itaque?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis mollitia ad obcaecati possimus modi asperiores alias excepturi facilis iusto aut laboriosam nesciunt dolores iure soluta porro non in enim, vitae accusantium cumque beatae, dolorum quaerat quis illum. Dicta impedit aperiam facere placeat animi porro nisi, ducimus ex minus adipisci fugit necessitatibus voluptates nam. Corporis, impedit. Et dolor architecto placeat nam, nobis debitis alias excepturi aspernatur ad magnam adipisci quos dolores ratione nisi molestias aperiam sequi delectus quis id numquam. Eveniet ad maiores itaque tenetur suscipit blanditiis? Illo provident minima voluptates totam eligendi quia possimus repellendus ab ea eveniet, obcaecati itaque?
+        </p>
+    </div>
+    
+</body>
+</html>
